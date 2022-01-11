@@ -17,16 +17,11 @@
     $parsedown = new Parsedown();
      $text = file_get_contents("Fiche.md"); ?>
      
-     <section class="w-75 m-auto text-white">
-         <?php
-             echo $parsedown->text($text);
-             
-             ?>
-     </section>
- 
-
-    
-
+     <main class="w-75 m-auto text-white contentPage">
+         <img src="./img/sun.svg" class="fixed-top switch" style="width:30px" >
+         <?= $parsedown->text($text); ?>
+     </main>
+  <script src="script.js"></script>
 </body>
 
 </html>

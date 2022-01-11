@@ -1,10 +1,11 @@
 # Fiche de partiel de réseaux
 
-===
+## →Comment repéré les trames de connexion ?
 
-### →Comment repéré les trames de connexion ?
+---
 
 **FTP** utilise **TCP** comme couche de transport
+
 Pour repéré de nouvelle trame de connexion :
 
 →regardé si il n'y a pas de *SYN* dedans
@@ -21,13 +22,19 @@ le _mode actif_ est défini celon *qui initie la connexion*
 
     il s'agit du mode passif``
 
-mode binaire ne modifie pas le code ascii d'un fichier doc
+**mode binaire** ne modifie pas le code ascii d'un fichier doc
+
+---
 
 ### →Les services d'emails
 
 **POP & IMAP** →premettent de relever à distance sa boite au lettre
+
 **IMAP** dispose de plus de fonctionnalités comme la gestion de dossiers
+
 **SMTP** permet d'envoyer des message d'un client vers un serveur ou entre deux serveur
+
+---
 
 ## →Quelques  définitions
 
@@ -45,5 +52,5 @@ __exemple__
 
 **requête de type A**: Une requête de type A est une demande d'adresse IP par rapport à un nom de machine
 
-**Authoritatives RR**: les machines peuvent faire entre elles des requête cependant seule certaines ont autorité sur une zone dédié. 
+**Authoritatives RR**: les machines peuvent faire entre elles des requête cependant seule certaines ont autorité sur une zone dédié.
 Ainsi, une machine dira toujours quel machines à autorités sur cette zone.
